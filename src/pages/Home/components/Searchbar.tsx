@@ -75,6 +75,7 @@ const Searchbar = () => {
             placeholder="Rechercher un film, une série, une émission télévisée..."
             aria-label="search"
             onChange={handleChange}
+            value={value}
             required
           />
           {data?.length ? (
